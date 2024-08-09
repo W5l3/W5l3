@@ -8,25 +8,25 @@ module.exports = {
     /**
      * bot details and parameters
      */
-    botname: process.env.BotName || "Queen Anya Bot",
-    footer: process.env.Footer || "© Queen Anya Bot",
+    botname: process.env.BotName || "W5L.3 | ALEX BOT",
+    footer: process.env.Footer || "© W5L.3 | ALEX BOT",
     prefa: process.env.Prefix || "-",
-    themeemoji: process.env.ThemeEmoji || "🎐",
+    themeemoji: process.env.ThemeEmoji || "🗿",
 
     /**
      * owner details and parameters
      */
     ownername: process.env.Owner_Name || "Pika~Kun",
-    ownernumber: process.env.Owner_Number || "916900904828",
-    instagramId: process.env.Insta || "3.69_pika",
+    ownernumber: process.env.Owner_Number || "59399222201",
+    instagramId: process.env.Insta || "W5L.3",
 
     /**
      * other details and parameters
      */
-    author: process.env.Author || "@PikaBotz",
-    packname: process.env.PackName || "Queen Anya v2 MD",
-    socialLink: process.env.Web || "https://github.com/PikaBotz",
-    groupLink: process.env.GcLink || "https://chat.whatsapp.com/E490r0wSpSr89XkCWeGtnX",
+    author: process.env.Author || "@W5L.3",
+    packname: process.env.PackName || "W5L.3 | ALEX V1 MD",
+    socialLink: process.env.Web || "https://github.com/W5L.3",
+    groupLink: process.env.GcLink || "wa.me/593992222001",
     warns: Number(process.env.Warn_Limits) || 3,
     cooldown: 5, // default cooldown time per command in seconds
     mongoUrl: process.env.MongoDB || "YOUR_MONGODB_URL",
